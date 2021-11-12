@@ -1,0 +1,20 @@
+v e v = v
+v e f = f
+f e ? = f // ? significa qualquer coisa
+
+operando1 e operando2 e operando3 e operando4 = v se todos forem v
+
+v ou ? = v
+f ou ? = ? // não da para saber pq depende do segundo valor para definir se é v ou f
+f ou v = v
+f ou f = f
+
+xor = ou exclusivo
+v xor v = f
+v xor f = v
+f xor v = v
+f xor f = f
+
+negação lógica
+!f = v
+!v = f
